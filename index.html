@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> glUCModel </title>
+	<meta charset="utf-8">
+
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="css/reset.css">
+    
+	<!-- width=device-width ajusta el ancho de página al ancho del dispositivo,
+		 initial-scale=1 ajusta el zoom inicial cuando la página es cargada por primera vez-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap core CSS (La libería de Bootstrap) -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Hoja de estilos propia -->
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+
+    <!-- Código JavaScript-->
+    <script type="text/javascript" src="../js/index.js"></script>
+    </script>
+    <noscript>
+        <p>Esta página requiere el uso de JavaScript. Por favor compruebe la configuración de su navegador.</p>
+    </noscript>
+
+</head>
+
+<body>
+
+	<!-- $$ Cabecera de la página -->
+	<div class="jumbotron miCabecera" id="glUCModel_header">
+        <div class="pull-right">
+            <p> Mi cuenta </p>
+            <p> Salir </p>
+        </div>
+		<h1> glUCModel </h1>
+	</div>
+    <!-- ## Fin de la cabecera -->
+
+    <!-- $$ Título de la sección -->
+    <div class="jumbotron" id="titulo_seccion">
+        <p>Login</p>
+    </div>
+    <!-- ## Título de la sección -->
+
+    <!-- $$ Panel principal -->
+    <div class="container">
+        <div class="row">
+            <!-- $$ Columna login -->
+            <div class="col-md-12">
+                <form class="form-inline" role="form">
+                    <div class="form-group">
+                            <label for="tf_peso">Correo electrónico:</label>
+                            <input class="form-control" id="tf_correo">
+                    </div>
+                    <div class="form-group">
+                            <label for="tf_peso">Contraseña:</label>
+                            <input class="form-control" id="tf_contraseña">
+                    </div>
+                    <!--<button type="submit" class="btn btn-default">Entrar (paciente)</button>
+                    <button type="submit" class="btn btn-default">Entrar (medico)</button>-->
+                    <a href="p_index_paciente.html" class="list-group-item">Entrar (paciente)</a>
+                    <a href="m_index_medico.html" class="list-group-item">Entrar (médico)</a>
+                </form>
+            </div>
+            <!-- ## Columna login -->
+        </div>
+    </div>
+    <!-- ## Panel principal -->
+
+    <!-- $$ Descripción de la aplicación -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3>¡Bienvenido a glUCModel!</h3>
+                <p>glUCModel ha sido desarrollado por el grupo de Arquitecturas Paralelas y Algoritmos Bioinspirados del departamento de Arquitectura de Computadores y Automática de la UCM.</p>
+                <p>glUCModel es un sistema de ayuda para el control de la diabetes.</p>
+                <p>Para utilizar el sistema debe disponer de nombre de usuario y contraseña.</p>
+                <p>Si usted es un profesional de la salud, por favor, rellene sus datos y solicite acceso mediante la pestaña de Nuevo usuario profesional.</p>
+                <p>Si es usted paciente, y aún no ha usado el sistema, por favor, hable con su médico para que le dé de alta en el sistema.</p>
+            </div>
+        </div>
+    </div>
+    <!-- ## Descripción de la aplicación -->
+
+</body>
+</html>

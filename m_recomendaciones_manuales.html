@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> glUCModel </title>
+	<meta charset="utf-8">
+
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="css/reset.css">
+    
+	<!-- width=device-width ajusta el ancho de página al ancho del dispositivo,
+		 initial-scale=1 ajusta el zoom inicial cuando la página es cargada por primera vez-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap core CSS (La libería de Bootstrap) -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- Hoja de estilos propia -->
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+	<!-- $$ Cabecera de la página -->
+    <div class="jumbotron miCabecera" id="glUCModel_header">
+        <div class="pull-right">
+            <p> Mi cuenta (médico) </p>
+            <a href="index.html"> <p>Salir </p></a>
+        </div>
+        <a href="m_index_medico.html"><h1> glUCModel </h1></a>
+    </div>
+    <!-- ## Fin de la cabecera -->
+
+    <!-- $$ Título de la sección -->
+    <div class="jumbotron" id="titulo_seccion">
+        <p>Recomendaciones manuales</p>
+    </div>
+    <!-- ## Título de la sección -->
+
+    <!-- $$ Panel principal -->
+    <div class="container">
+        <!-- $$ Fila para G.Pacientes y Moodle -->
+        <div class="row">
+            <!-- $$ Columna para G.Pacientes -->
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <!-- $$ Cabecera G.Pacientes -->
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Gestión de pacientes</h3>          
+                    </div>
+                    <!-- ## Cabecera G.Pacientes -->
+                    <!-- $$ Cuerpo G.Pacientes -->
+                    <div class="panel-body">
+                        <p> Últimas entradas del campus: </p>
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">Entrada 1</a>
+                            <a href="#" class="list-group-item">Entrada 2</a>
+                            <a href="#" class="list-group-item">Entrada 3</a>
+                        </div>
+                        <p> Tests recomendados: </p>
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">
+                                <button type="submit" class="btn btn-default btn-sm pull-right">Realizar</button>
+                                <p> Test diabetes Mellitus tipo 1 </p>
+                            </a>
+                            <a href="#" class="list-group-item">
+                                <button type="submit" class="btn btn-default btn-xs pull-right">Realizar</button>
+                                <p> Test diabetes Mellitus tipo 2 </p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ## Cuerpo G.Pacientes -->
+                </div>
+            </div>
+            <!-- ## Columna para G.Pacientes -->
+
+            <!-- $$ Columna para moodle -->
+            <div class="col-md-6">
+                <div class="panel panel-default">
+                    <!-- $$ Cabecera del Sistema de Educación -->
+                    <div class="panel-heading">
+                        <div class="pull-right">
+                            <button type="button" class="btn btn-default btn-xs">Entrar</button>
+                        </div>
+                        <h3 class="panel-title">Educación (Moodle)</h3>          
+                    </div>
+                    <!-- ## Cabecera del Sistema de Educación -->
+                    <!-- $$ Cuerpo del Sistema de Educación -->
+                    <div class="panel-body">
+                        <p> Últimas entradas del campus: </p>
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">Entrada 1</a>
+                            <a href="#" class="list-group-item">Entrada 2</a>
+                            <a href="#" class="list-group-item">Entrada 3</a>
+                        </div>
+                        <p> Tests recomendados: </p>
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">
+                                <button type="submit" class="btn btn-default btn-sm pull-right">Realizar</button>
+                                <p> Test diabetes Mellitus tipo 1 </p>
+                            </a>
+                            <a href="#" class="list-group-item">
+                                <button type="submit" class="btn btn-default btn-xs pull-right">Realizar</button>
+                                <p> Test diabetes Mellitus tipo 2 </p>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- ## Cuerpo del Sistema de Educación -->
+                </div>
+            </div>
+            <!-- ## Columna para moodle -->    
+        </div>
+        <!-- ## Fila para moodle y pred. insulina -->
+
+        <!-- $$ Fila para el S.Rec. y Doc.Apoyo -->
+        <div class="row">
+            <!-- $$ Columna para S.Rec. -->
+            <div class="col-sm-6">
+                <div class="panel panel-default">
+                    <!-- $$ Cabecera del S.Rec. -->
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Sistema Recomendador</h3>
+                    </div>
+                    <!-- ## Cabecera del S.Rec. -->
+                            
+                    <!-- $$ Cuerpo del S.Rec. -->
+                    <div class="panel-body">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">No hay medidas de colesterol registradas</a>
+                            <a href="#" class="list-group-item">No hay mediciones de peso en el último mes</a>
+                            <a href="#" class="list-group-item">No hay fondo de ojos registrado</a>
+                        </div>
+                    </div>
+                    <!-- ## Cuerpo del S.Rec. -->
+                </div>
+            </div>
+            <!-- ## Columna para S.Rec. -->
+            <!-- $$ Columna para Doc.Apoyo -->
+            <div class="col-sm-6">
+                <div class="panel panel-default">
+                    <!-- $$ Cabecera Doc.Apoyo -->
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Dcoumentación de apoyo</h3>
+                    </div>
+                    <!-- ## Cabecera Doc.Apoyo -->
+                            
+                    <!-- $$ Cuerpo Doc.Apoyo -->
+                    <div class="panel-body">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item">Documento1.txt</a>
+                            <a href="#" class="list-group-item">Documento2.txt</a>
+                            <a href="#" class="list-group-item">Documento3.txt</a>
+                        </div>
+                    </div>
+                    <!-- ## Cuerpo Doc.Apoyo -->
+                </div>
+            </div>
+            <!-- ## Columna para Doc.Apoyo. -->   
+        </div>
+        <!-- ## Fila para S.Rec. y Doc.Apoyo. -->
+    </div>
+    <!-- ## Panel principal -->
+</body>
+</html>
