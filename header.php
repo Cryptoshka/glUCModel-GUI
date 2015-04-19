@@ -22,11 +22,11 @@
 	<div class="jumbotron miCabecera" id="glUCModel_header">
         <div class="pull-right">
             <p> Mi cuenta </p>
-            <p> Salir </p>
+            <a href="index.php"><p>Salir</p></a>
         </div>
 		<h1> glUCModel </h1>
 	</div>
 	<!-- ./ glUCModel header -->
 
 	<!-- Page content -->
-	<div id="app-content" class="container">
+	<!--<div id="page-content" class="container">-->

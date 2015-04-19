@@ -4,7 +4,7 @@
 
 <!-- $$ Título de la sección -->
 <div class="jumbotron" id="titulo_seccion">
-    <p>Recomendaciones manuales</p>
+    <p>Ventana Principal</p>
 </div>
 <!-- ## Título de la sección -->
 
@@ -97,9 +97,9 @@
                 <!-- $$ Cuerpo del S.Rec. -->
                 <div class="panel-body">
                     <div class="list-group">
-                        <a href="#" class="list-group-item">No hay medidas de colesterol registradas</a>
-                        <a href="#" class="list-group-item">No hay mediciones de peso en el último mes</a>
-                        <a href="#" class="list-group-item">No hay fondo de ojos registrado</a>
+                        <a href="m_recomendaciones_manuales.php" class="list-group-item">Crear recomendaciones de forma manual</a>
+                        <a href="m_revisar_automaticas.php" class="list-group-item">Revisar recomendaciones automáticas</a>
+                        <a href="m_revisar_casos.php" class="list-group-item">Revisar los casos de seguimiento</a>
                     </div>
                 </div>
                 <!-- ## Cuerpo del S.Rec. -->
