@@ -41,9 +41,10 @@ h3.panel-title {
     color: white;
 }
 body {
-	background-image: url("../img/grass.jpg");
+	background-image: url("../img/grass_lowres.png");
     background-attachment: fixed;
-	background-size: 100%auto;
+	background-size: contain;
+    background-size: contain;
 }
 a {
     color: white;
