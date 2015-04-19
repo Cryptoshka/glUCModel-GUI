@@ -22,7 +22,7 @@
 	<div class="jumbotron miCabecera" id="glUCModel_header">
         <div class="pull-right">
             <p> Mi cuenta </p>
-            <a href="index.html"> <p>Salir </p></a>
+            <a href="index.php"><p>Salir</p></a>
         </div>
 		<h1> glUCModel </h1>
 	</div>

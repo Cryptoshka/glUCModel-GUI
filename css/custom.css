@@ -93,3 +93,9 @@ a {
     color: white;
     border-radius: 0px;
 }
+/* Carousel */
+/* --------------------------------------------- */
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 80%;
+    margin: auto;
+}

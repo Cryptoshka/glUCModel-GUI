@@ -4,7 +4,7 @@
 
 <!-- $$ Título de la sección -->
 <div class="jumbotron" id="titulo_seccion">
-    <p>Recomendaciones manuales</p>
+    <p>Revisar casos</p>
 </div>
 <!-- ## Título de la sección -->
 

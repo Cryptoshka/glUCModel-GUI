@@ -43,10 +43,10 @@
 			    <!--<button type="submit" class="btn btn-default">Submit</button>-->
 			    <div class="row">
                 	<div class="col-sm-6">
-                		<a href="p_index_paciente.html" class="list-group-item">Entrar (paciente)</a>
+                		<a href="p_index_paciente.php" class="list-group-item">Entrar (paciente)</a>
                 	</div>
                 	<div class="col-sm-6">
-                		<a href="m_index_medico.html" class="list-group-item">Entrar (médico)</a>
+                		<a href="m_index_medico.php" class="list-group-item">Entrar (médico)</a>
                 	</div>
 	            </div>
             </form>
