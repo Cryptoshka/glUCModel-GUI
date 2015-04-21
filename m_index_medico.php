@@ -22,25 +22,31 @@
                 <!-- ./ Cabecera G.Pacientes -->
                 <!-- Cuerpo G.Pacientes -->
                 <div class="panel-body">
-                    <p> Últimas entradas del campus: </p>
                     <div class="list-group">
-                        <a href="#" class="list-group-item">Entrada 1</a>
-                        <a href="#" class="list-group-item">Entrada 2</a>
-                        <a href="#" class="list-group-item">Entrada 3</a>
-                    </div>
-                    <p> Tests recomendados: </p>
-                    <div class="list-group">
-                        <a href="#" class="list-group-item">
-                            <button type="submit" class="btn btn-default btn-sm pull-right">Realizar</button>
-                            <p> Test diabetes Mellitus tipo 1 </p>
+                        <a href="#" class="list-group-item">Paciente 1</a>
+                        <a href="#" class="list-group-item">Paciente 2</a>
+                        <a href="#" class="list-group-item">Paciente 3</a>
+                        <a href="#" class="list-group-item">Paciente 4
+                            <button type="submit" class="btn btn-default btn-xs pull-right">
+                                <span class="glyphicon glyphicon-trash"></span>
+                            </button>
                         </a>
-                        <a href="#" class="list-group-item">
-                            <button type="submit" class="btn btn-default btn-xs pull-right">Realizar</button>
-                            <p> Test diabetes Mellitus tipo 2 </p>
-                        </a>
+                        <a href="#" class="list-group-item">Paciente 5</a>
+                        <a href="#" class="list-group-item">Paciente 6</a>
+                        <a href="#" class="list-group-item">Paciente 7</a>
+                        <a href="#" class="list-group-item">Paciente 8</a>
                     </div>
                 </div>
                 <!-- ./ Cuerpo G.Pacientes -->
+                <!-- panel footer -->
+                <div class="panel-footer">
+                    <div class="row">
+                        <div class="col col-sm-12">
+                            <button type="button" class="btn-ver-md float-right">Alta</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- ./ panel footer -->
             </div>
         </div>
         <!-- ./ col G.Pacientes -->

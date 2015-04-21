@@ -1,0 +1,117 @@
+/* Tipografía */
+/* --------------------------------------------- */
+#glUCModel_header {
+    color: white;
+    /*background-image: url("img/grass.jpg");*/
+    background-color: #388E3C;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+#titulo_seccion {
+    color: white;
+    /*background-image: url("img/grass.jpg");*/
+    background-color: #005200;
+    height: 40px;
+    padding: 5px;
+}
+/* Paneles de contenido */
+/* --------------------------------------------- */
+.panel-default>.panel-heading {
+   background-color: #388E3C; 
+}
+.panel-default{
+	border-width: 4px;
+	border-color: grey;
+	border-radius: 8px;
+}
+.panel-formal {
+    border-radius: 0px;
+    border-width: 2px;
+    border-color: black;
+}
+.panel-formal>.panel-heading {
+    background-color: #959595;
+    height: 3em;
+    border-radius: 0px;
+}
+.panel-formal>.panel-body {
+    border-radius: 0px;
+}
+h3.panel-title {
+    color: white;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-color: black;
+	background-image: url("../img/grass_lowres.png");
+    background-attachment: fixed;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+}
+a {
+    color: white;
+}
+/* Posicionamiento */
+/* --------------------------------------------- */
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+/* Listas y listas con scroll */
+/* --------------------------------------------- */
+.scroll-list {
+    max-height: 16em;
+    overflow: hidden;
+    overflow-y: auto;  
+}
+.ul-coloured li:nth-child(2n+1) {
+    background-color: #E5E5E5;
+}
+/* Formularios */
+/* --------------------------------------------- */
+.tf-sm {
+    width: 3em;
+}
+/* Botones */
+/* --------------------------------------------- */
+.btn-submit-md {
+    background-color: #005200;
+    color: white;
+    border-radius: 0px;
+    height: 2em;
+    width: 5em;
+}
+.btn-ver-md {
+    background-color: #509050;
+    color: white;
+    border-radius: 0px;
+    border-width: 1px;
+    height: 2em;
+    /*width: 4em;*/
+    &:hover{
+    background-color: white;
+    border-color: #509050;
+    border-width: 3px;
+    color: #509050;
+  }
+}
+.btn-light-sm {
+    background-color: #609960;
+    color: white;
+    border-radius: 0px;
+    &:hover{
+    background-color: white;
+    border-color: #609960;
+    border-width: 3px;
+    color: #609960;
+  }
+}
+/* Carousel */
+/* --------------------------------------------- */
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: 80%;
+    margin: auto;
+}
