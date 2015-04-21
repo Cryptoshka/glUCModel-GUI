@@ -42,7 +42,8 @@
                 <div class="panel-footer">
                     <div class="row">
                         <div class="col col-sm-12">
-                            <button type="button" class="btn-ver-md float-right">Alta</button>
+                            <!--<button type="button" class="btn-ver-md float-right">Alta</button>-->
+                            <a href="m-alta-paciente.php" class="btn-ver-md float-right">Alta</a>
                         </div>
                     </div>
                 </div>

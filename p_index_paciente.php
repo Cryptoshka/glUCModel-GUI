@@ -141,7 +141,7 @@
                 <div class="panel-body">
                     <div class="list-group">
                         <a href="#" class="list-group-item">Ejercicio</a>
-                        <a href="p_peso_main.html" class="list-group-item">Peso
+                        <a href="p_peso_main.php" class="list-group-item">Peso
                             <form class="form-inline" role="form">
                                 <div class="form-group">
                                     <label class="sr-only" for="tf_peso">Peso</label>
