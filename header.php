@@ -8,13 +8,15 @@
 	<meta name="designer" content="Alberto Miedes Garcés">
 	<title>glUCModel</title> 
 	<!-- CSS Reset -->
-	<link rel="stylesheet" href="css/reset.css"> 
+	<link rel="stylesheet" href="css/reset.css">
+	<!-- Fuentes -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:700,900,500,400,500italic' rel='stylesheet' type='text/css'>
 	<!-- Bootstrap core CSS (La libería de Bootstrap) -->
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   	<!-- Hoja de estilos propia -->
-    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <link href="css/other.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>

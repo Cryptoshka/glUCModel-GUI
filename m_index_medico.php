@@ -10,17 +10,17 @@
 
 <!-- $$ Panel principal -->
 <div class="container">
-    <!-- $$ Fila para G.Pacientes y Moodle -->
+    <!-- row G.Pacientes y S.Rec. -->
     <div class="row">
-        <!-- $$ Columna para G.Pacientes -->
+        <!-- col G.Pacientes -->
         <div class="col-md-6">
             <div class="panel panel-default">
-                <!-- $$ Cabecera G.Pacientes -->
+                <!-- Cabecera G.Pacientes -->
                 <div class="panel-heading">
                     <h3 class="panel-title">Gestión de pacientes</h3>          
                 </div>
-                <!-- ## Cabecera G.Pacientes -->
-                <!-- $$ Cuerpo G.Pacientes -->
+                <!-- ./ Cabecera G.Pacientes -->
+                <!-- Cuerpo G.Pacientes -->
                 <div class="panel-body">
                     <p> Últimas entradas del campus: </p>
                     <div class="list-group">
@@ -40,13 +40,40 @@
                         </a>
                     </div>
                 </div>
-                <!-- ## Cuerpo G.Pacientes -->
+                <!-- ./ Cuerpo G.Pacientes -->
             </div>
         </div>
-        <!-- ## Columna para G.Pacientes -->
+        <!-- ./ col G.Pacientes -->
 
-        <!-- $$ Columna para moodle -->
+        <!-- col S.Rec. -->
         <div class="col-md-6">
+            <div class="panel panel-default">
+                <!-- $$ Cabecera del S.Rec. -->
+                <div class="panel-heading">
+                    <h3 class="panel-title">Sistema Recomendador</h3>
+                </div>
+                <!-- ## Cabecera del S.Rec. -->
+                        
+                <!-- $$ Cuerpo del S.Rec. -->
+                <div class="panel-body">
+                    <div class="list-group">
+                        <a href="m_recomendaciones_manuales.php" class="list-group-item">Crear recomendaciones de forma manual</a>
+                        <a href="m_revisar_automaticas.php" class="list-group-item">Revisar recomendaciones automáticas</a>
+                        <a href="m_revisar_casos.php" class="list-group-item">Revisar los casos de seguimiento</a>
+                    </div>
+                </div>
+                <!-- ## Cuerpo del S.Rec. -->
+            </div>
+        </div>
+        <!-- ./ col S.Rec. -->
+    </div>
+    <!-- ./ row G.Pacientes y S.Rec. -->
+
+
+    <!-- row Moodle y Doc. Apoyo --> 
+    <div class="row">
+        <!-- col Moodle -->
+        <div class="col-sm-6">
             <div class="panel panel-default">
                 <!-- $$ Cabecera del Sistema de Educación -->
                 <div class="panel-heading">
@@ -79,34 +106,8 @@
                 <!-- ## Cuerpo del Sistema de Educación -->
             </div>
         </div>
-        <!-- ## Columna para moodle -->    
-    </div>
-    <!-- ## Fila para moodle y pred. insulina -->
-
-    <!-- $$ Fila para el S.Rec. y Doc.Apoyo -->
-    <div class="row">
-        <!-- $$ Columna para S.Rec. -->
-        <div class="col-sm-6">
-            <div class="panel panel-default">
-                <!-- $$ Cabecera del S.Rec. -->
-                <div class="panel-heading">
-                    <h3 class="panel-title">Sistema Recomendador</h3>
-                </div>
-                <!-- ## Cabecera del S.Rec. -->
-                        
-                <!-- $$ Cuerpo del S.Rec. -->
-                <div class="panel-body">
-                    <div class="list-group">
-                        <a href="m_recomendaciones_manuales.php" class="list-group-item">Crear recomendaciones de forma manual</a>
-                        <a href="m_revisar_automaticas.php" class="list-group-item">Revisar recomendaciones automáticas</a>
-                        <a href="m_revisar_casos.php" class="list-group-item">Revisar los casos de seguimiento</a>
-                    </div>
-                </div>
-                <!-- ## Cuerpo del S.Rec. -->
-            </div>
-        </div>
-        <!-- ## Columna para S.Rec. -->
-        <!-- $$ Columna para Doc.Apoyo -->
+        <!-- ./ col Moodle --> 
+        <!-- col Doc.Apoyo -->
         <div class="col-sm-6">
             <div class="panel panel-default">
                 <!-- $$ Cabecera Doc.Apoyo -->
@@ -126,9 +127,9 @@
                 <!-- ## Cuerpo Doc.Apoyo -->
             </div>
         </div>
-        <!-- ## Columna para Doc.Apoyo. -->   
+        <!-- ./ col Doc.Apoyo. -->   
     </div>
-    <!-- ## Fila para S.Rec. y Doc.Apoyo. -->
+    <!-- ./ row Moodle y Doc.Apoyo. -->
 </div>
 <!-- ## Panel principal -->
 
