@@ -10,6 +10,166 @@
 
 <!-- $$ Panel principal -->
 <div class="container">
+    <!-- row S.Rec. -->
+    <div class="row">
+        <!-- col-lg-12 -->
+        <div class="col-lg-12">
+            <!-- panel -->
+            <div class="panel panel-default">
+                <!-- panel-heading -->
+                <div class="panel-heading">
+                    <h3 class="panel-title">Recomendaciones sugeridas</h3>
+                </div>
+                <!-- ./ panel-heading -->
+                <!-- panel-body -->
+                <div class="panel-body">
+                    <!-- table -->
+                    <table class="tabla-pacientes">
+                        <tr>
+                            <th>Paciente</th>
+                            <th>Recomendación</th>
+                            <th>Acciones</th>
+                        </tr>
+                        <tr>
+                            <!--class="text-success" class="text-warning" class="text-danger"-->
+                            <td class="text-danger">Martin Jermaine</td>
+                            <td class="text-warning">Recomendación 1: blablabla</td>
+                            <td>
+                                <div class="col-xs-3">
+                                    <button type="button" class="btn btn-success btn-xs disabled">
+                                        <span class="glyphicon glyphicon-ok align-both"></span>
+                                    </button>
+                                </div>
+                                <div class="col-xs-3">
+                                    <button type="button" class="btn btn-warning btn-xs">
+                                        <span class="glyphicon glyphicon-pencil align-both"></span>
+                                    </button>
+                                </div>
+                                <div class="col-xs-3">
+                                    <button type="button" class="btn btn-danger btn-xs">
+                                        <span class="glyphicon glyphicon-remove align-both"></span>
+                                    </button>
+                                </div>
+                                <div class="col-xs-3">
+                                    <button type="button" class="btn btn-info btn-xs disabled">
+                                        <abbr title="Automatizar para este paciente"><span class="glyphicon glyphicon-repeat align-both"></span></abbr>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-danger">Nasim Mihkel</td>
+                            <td class="text-danger">Recomendación 6: blablabla</td>
+                            <td>
+                                <div class="col-xs-3">
+                                    <button type="button" class="btn btn-success btn-xs disabled">
+                                        <span class="glyphicon glyphicon-ok align-both"></span>
+                                    </button>
+                                </div>
+                                <div class="col-xs-3">
+                                    <button type="button" class="btn btn-warning btn-xs">
+                                        <span class="glyphicon glyphicon-pencil align-both"></span>
+                                    </button>
+                                </div>
+                                <div class="col-xs-3">
+                                    <button type="button" class="btn btn-danger btn-xs">
+                                        <span class="glyphicon glyphicon-remove align-both"></span>
+                                    </button>
+                                </div>
+                                <div class="col-xs-3">
+                                    <button type="button" class="btn btn-info btn-xs disabled">
+                                        <abbr title="Automatizar para este paciente"><span class="glyphicon glyphicon-repeat align-both"></span></abbr>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-success">Forest Juniper</td>
+                            <td class="text-success">Recomendación 3: blablabla</td>
+                            <td>
+                                <div class="col-xs-3">
+                                    <button type="button" class="btn btn-success btn-xs">
+                                        <span class="glyphicon glyphicon-ok align-both"></span>
+                                    </button>
+                                </div>
+                                <div class="col-xs-3">
+                                    <button type="button" class="btn btn-warning btn-xs">
+                                        <span class="glyphicon glyphicon-pencil align-both"></span>
+                                    </button>
+                                </div>
+                                <div class="col-xs-3">
+                                    <button type="button" class="btn btn-danger btn-xs">
+                                        <span class="glyphicon glyphicon-remove align-both"></span>
+                                    </button>
+                                </div>
+                                <div class="col-xs-3">
+                                    <button type="button" class="btn btn-info btn-xs">
+                                        <abbr title="Automatizar para este paciente"><span class="glyphicon glyphicon-repeat align-both"></span></abbr>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="text-warning">Azure Selby</td>
+                            <td class="text-success">Recomendación 2: blablabla</td>
+                            <td>
+                                <div class="col-xs-3">
+                                    <button type="button" class="btn btn-success btn-xs">
+                                        <span class="glyphicon glyphicon-ok align-both"></span>
+                                    </button>
+                                </div>
+                                <div class="col-xs-3">
+                                    <button type="button" class="btn btn-warning btn-xs">
+                                        <span class="glyphicon glyphicon-pencil align-both"></span>
+                                    </button>
+                                </div>
+                                <div class="col-xs-3">
+                                    <button type="button" class="btn btn-danger btn-xs">
+                                        <span class="glyphicon glyphicon-remove align-both"></span>
+                                    </button>
+                                </div>
+                                <div class="col-xs-3">
+                                    <button type="button" class="btn btn-info btn-xs">
+                                        <abbr title="Automatizar para este paciente"><span class="glyphicon glyphicon-repeat align-both"></span></abbr>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <!-- ./ table -->
+                </div>
+                <!-- ./ panel-body -->
+                <!-- panel-footer -->
+                <div class="panel-footer clearfix">
+                    <div class="col-sm-6">
+                        <label>Ordenar por: </label>
+                        <select class="selectpicker">
+                            <option>Fecha</option>
+                            <option>Nivel de seguimiento</option>
+                            <option>Recomendaciones pendientes</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3 pull-right">
+                        <!--<div class="input-group input-group-sm">
+                          <input type="text" class="form-control" placeholder="Search" aria-describedby="sizing-addon1">
+                          <span class="input-group-addon btn btn-sm glyphicon glyphicon-search"></span></input>
+                          <!--<span class="input-group-addon glyphicon glyphicon-search" id="sizing-addon1"></span>-->
+                        <!--</div>-->
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                            </span>
+                        </div>
+                    </div> 
+                </div>
+                <!-- ./ panel-footer -->
+            </div>
+            <!-- ./panel -->
+        </div>
+        <!-- ./ col-lg-12 -->
+    </div>
+    <!-- ./ row S.Rec. -->
     <!-- row G.Pacientes y S.Rec. -->
     <div class="row">
         <!-- col G.Pacientes -->
