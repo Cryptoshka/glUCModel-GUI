@@ -1,29 +1,60 @@
+/* Constantes */
+/* --------------------------------------------- */
+/*100*/
+/*500*/
+/*700*/
+/*A100*/
+/*A200*/
+/*A400*/
+/*200*/
+/*300*/
+/*400*/
 /* Tipografía */
 /* --------------------------------------------- */
 #glUCModel_header {
   color: white;
   /*background-image: url("img/grass.jpg");*/
-  background-color: #388E3C;
+  background-color: #1976d2;
   padding: 10px;
   margin-bottom: 0px;
+  padding: 20px;
+  font-weight: normal;
 }
 #titulo_seccion {
   color: white;
   /*background-image: url("img/grass.jpg");*/
-  background-color: #005200;
+  background-color: #bbdefb;
   height: 40px;
   padding: 5px;
 }
 /* Paneles de contenido */
 /* --------------------------------------------- */
+.panel-default {
+  border-radius: 2px;
+  background-color: white;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+}
+/*.panel-default {
+  border: 3px solid gray;
+  border-radius: 0px;
+  background-color: white;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+}*/
 .panel-default > .panel-heading {
+  border-radius: 2px;
+  background-color: #2196f3;
+}
+.panel-default > .panel-footer {
+  background-color: #bdbdbd;
+}
+/*.panel-default > .panel-heading {
   background-color: #388E3C;
 }
 .panel-default {
   border-width: 4px;
   border-color: grey;
   border-radius: 8px;
-}
+}*/
 .panel-formal {
   border-radius: 0px;
   border-width: 2px;
@@ -43,7 +74,7 @@ h3.panel-title {
 body {
   font-family: 'Roboto', sans-serif;
   font-color: black;
-  background-image: url("../img/grass_lowres.png");
+  background-color: #eeeeee;
   background-attachment: fixed;
   background-size: 100% auto;
   background-repeat: no-repeat;
@@ -59,7 +90,17 @@ a {
 .float-right {
   float: right;
 }
-/* Listas y listas con scroll */
+.v-align-middle {
+  vertical-align: middle;
+}
+.h-align-middle {
+  horizontal-align: middle;
+}
+.align-both {
+  vertical-align: middle;
+  horizontal-align: middle;
+}
+/* Listas y tablas listas con scroll */
 /* --------------------------------------------- */
 .scroll-list {
   max-height: 16em;
@@ -68,6 +109,30 @@ a {
 }
 .ul-coloured li:nth-child(2n+1) {
   background-color: #E5E5E5;
+}
+.tabla-pacientes {
+  width: 100%;
+  padding: 30px;
+}
+.tabla-pacientes tr {
+  border-bottom: 1px solid #eeeeee;
+  height: 20px;
+  text-align: center;
+}
+.tabla-pacientes td {
+  margin: 10px;
+  padding: 8px;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+}
+.tabla-pacientes th {
+  font-weight: bold;
+  text-align: center;
+}
+.tabla-pacientes td .btn {
+  width: 30px;
+  height: 30px;
 }
 /* Formularios */
 /* --------------------------------------------- */

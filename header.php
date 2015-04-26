@@ -26,7 +26,7 @@
             <p> Mi cuenta </p>
             <a href="index.php"><p>Salir</p></a>
         </div>
-		<h1> glUCModel </h1>
+		<h2>glUCModel<h2>
 	</div>
 	<!-- ./ glUCModel header -->
 
